@@ -1,4 +1,69 @@
 #header{
     font-family: 'Indie Flower', cursive;
-    size: 100px
+    size: 100px;
+    text-align: center;
+}
+
+div.game-area{
+	border: #EB5055 10px solid;
+	overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 340px;
+    height: 260px;
+	box-shadow: 5px 0px 0px #BD3035, -5px 0px 0px #BD3035, 0px 5px 0px #BD3035, 0px -5px 0px #BD3035;
+}
+
+div.game-area>div{
+	width: 40px;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+
+div.game-area div.S{
+	background: #FFFCF5;
+    outline: #EB5055 1px solid;
+    border: 1px solid black;
+}
+
+#mainContainer{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+#nextItemArea{
+    padding-top: 10px;
+    border:5px solid #000000;
+    width: 340px; 
+    height: 120px;
+    margin-top: 30px;
+}
+
+#nextItem{
+    /* border: #EB5055 1px solid; */
+	overflow: hidden;
+    margin: 0 auto;
+    width: 150px;
+    height: 80px;
+}
+
+div#nextItem div{
+    width: 40px;
+	height: 40px;
+	float: left;
+    position: relative;
+    padding: 0px;
+}
+
+div#nextItem div.S{
+	background: rgb(172, 11, 221);
+    outline: #EB5055 1px solid;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+#refreshButton{
+    width: 70px;
 }
